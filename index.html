@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ <nav class="navbar navbar-dark bg-dark" style="border-bottom: 6px solid #4aaaa5;">
+     <a class="navbar-brand" href="#">Password Generator</a>
+</nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 mx-auto">
+                <div class="content">
+                    <h3>Create a Password</h3>
+                    <br/>
+                    <input type="text" id="display" placeholder="Click Generate to display your Secured Password">
+                    <br/><br/>
+                    <button onclick="generate()" type="button" class="btn btn-danger">Generate Password</button>
+                    <button onclick="copyPassword()" type="button" class="btn btn-primary">Copy to Clipborad</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer> &copy;Copyright: Sary Jamie 2019</footer>   
+    <script src="script.js"></script>
+</body>
+</html>

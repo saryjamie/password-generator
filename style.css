@@ -1,0 +1,32 @@
+body{
+    background: url("img/so-white.png");
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(241, 239, 237);
+    padding: 20px;
+    width: 100%;
+}
+#display{
+    width: 100%;
+}
+h3{
+    border-bottom: 2px solid grey;
+}
+input{
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+}
